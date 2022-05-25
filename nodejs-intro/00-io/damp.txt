@@ -3,7 +3,8 @@ fs.writeFileSync('damp.txt', lines);
 
     .join('\n');
     .reverse()
-    .split(/\n|\r|\r\n/)
+    .split('\n')
+    // .split(/\n|\r|\r\n/)
 let lines = content
 
 console.log(content);
@@ -11,3 +12,9 @@ console.log(content);
 let content = fs.readFileSync(__filename, 'utf-8');
 
 const fs = require('fs');
+
+ */
+ * показано использование регулярных выражений
+ * показан функциональный стиль оформления кода
+ * и выводу данных в файл
+/* пример оформления программы по вводу данных из файла

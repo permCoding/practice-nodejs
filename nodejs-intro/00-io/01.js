@@ -5,7 +5,6 @@
 
 const rl = require('readline-sync');
 
-
 console.log('Введите login?');
 let userLogin = rl.question();
 

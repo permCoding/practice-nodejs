@@ -20,17 +20,17 @@ app.get('/', function (req, res) { // главная страница
     let file_records = './private/feeds.csv'; // файл с отзывами
     md.md_index.feeds = md.get_records(file_records); // получить из csv-файла
     // md.md_index.feeds = md.md_index.feeds.reverse(); // новые записи вверху списка
-    // md.md_index.feeds = md.md_index.feeds.sort((a,b) => a.name>b.name? +1: -1);
-    md.md_index.feeds = md.md_index.feeds.sort((a,b) => a.date_time>b.date_time? -1: +1);
+    md.md_index.feeds = md.md_index.feeds.sort((a,b) => a.name>b.name? +1: -1);
+    // md.md_index.feeds = md.md_index.feeds.sort((a,b) => a.date_time>b.date_time? -1: +1);
     res.render('index', md.md_index); // render view
 });
 
 app.get('/feedback', (req, res) => {
-    res.render("feedback", md.md_feed); // render view
+    res.render("feedback.ejs", md.md_feed); // render view
 });
 
 app.post('/feedback', htmlParser, (req, res) => {
-    if (!req.body) return res.sendStatus(400);
+    // if (!req.body) return res.sendStatus(400);
     tools.append_record(req.body.name, req.body.feed); // находим по имени в шаблоне
     res.redirect("/"); // возвращаемся на главную
 });

@@ -9,7 +9,7 @@ const http = require("http");
 const make_response = (req, res) => {
     res.writeHead(200, {"Content-Type": "text/html"} );
     console.log("request");
-    res.write('<meta charset="utf-8">');
+    res.write('<meta charset="utf-8" />');
     res.write('<div style="text-align: center;">');
     res.write('<h3>The server is running</h3>');
     res.write('<h2>Сервер запущен</h2>');
@@ -18,5 +18,7 @@ const make_response = (req, res) => {
 };
 
 const server = http.createServer();
-server.listen(3000, () => console.log("Сервер запущен")); // включили прослушивание
+
 server.on("request", make_response); // обработка запроса от клиента
+
+server.listen(3000, () => console.log("Сервер запущен")); // включили прослушивание

@@ -14,7 +14,7 @@ try {
     let sum = array
         .slice(2,)
         .map(elm => parseInt(elm))
-        .reduce((acc,cur)=>acc+cur, 0);
+        .reduce((acc,elm) => acc+elm, 0);
     console.log(`sum = ${sum}`);
 } catch (error) {
     console.log('error data');

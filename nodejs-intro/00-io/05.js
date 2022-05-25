@@ -11,7 +11,8 @@ let content = fs.readFileSync(__filename, 'utf-8');
 console.log(content);
 
 let lines = content
-    .split(/\n|\r|\r\n/)
+    // .split(/\n|\r|\r\n/)
+    .split('\n')
     .reverse()
     .join('\n');
 
