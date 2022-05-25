@@ -2,9 +2,6 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-// resolve объединяет справа налево пока не встретит item со слешем
-// join объединяет все подряд
-// const get_path = (page) => path.resolve(__dirname, 'views', `${page}.html`);
 const get_path = (page) => path.join(__dirname, 'views', `${page}.html`);
 
 const server = http.createServer();
@@ -14,7 +11,7 @@ server.on("request", (req, res) => {
     
     let page_path = ''; // адрес html-страницы
     console.log(req.url);
-    switch (req.url) {
+    switch (req.url) { // роутинг по страницам сайта
         case '/':
         case '/start':
         case '/home':
@@ -23,7 +20,7 @@ server.on("request", (req, res) => {
             res.statusCode = 200;
             break;
         case '/about':
-            res.statusCode = 301;
+            res.statusCode = 301; // делаем переадресацию
             res.setHeader('Location', '/contacts');
             res.end();
             break;

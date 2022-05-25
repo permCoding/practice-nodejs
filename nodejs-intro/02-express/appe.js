@@ -5,10 +5,6 @@ const app = express();
 
 const get_path = (page) => path.join(__dirname, 'views', `${page}.html`);
 
-app.listen(3000, (error) => {
-    error? console.error(error): console.log(`http://localhost:3000`);
-}); 
-
 app.get(['/', '/start', '/index', '/home'], (req, res) => {
     res.sendFile(get_path('index'));
 });
@@ -26,3 +22,7 @@ app.use((req, res) => {
         .status(404)
         .sendFile(get_path('error'));
 });
+
+app.listen(3000, (error) => {
+    error? console.error(error): console.log(`http://localhost:3000`);
+}); 

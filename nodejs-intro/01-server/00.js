@@ -1,8 +1,12 @@
+/* оформление серверной программы
+ * после запуска результаты смотреть в браузере
+ * по адресу localhost:3000
+ * для остановки в терминале нажмите Ctrl+C
+ */
+
 const http = require("http");
 
-const server = http.createServer();
-
-const request = (req, res) => {
+const make_response = (req, res) => {
     res.writeHead(200, {"Content-Type": "text/html"} );
     console.log("request");
     res.write('<meta charset="utf-8">');
@@ -10,9 +14,9 @@ const request = (req, res) => {
     res.write('<h3>The server is running</h3>');
     res.write('<h2>Сервер запущен</h2>');
     res.write('</div>');
-    res.end();
+    res.end(); // завершает ответ и передёт управление браузеру
 };
 
-server.listen(3000, () => console.log("Сервер запущен"));
-
-server.on("request", request);
+const server = http.createServer();
+server.listen(3000, () => console.log("Сервер запущен")); // включили прослушивание
+server.on("request", make_response); // обработка запроса от клиента
