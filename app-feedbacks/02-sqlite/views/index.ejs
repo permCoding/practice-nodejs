@@ -3,21 +3,20 @@
 <head>
     <meta charset="utf-8" />
     <title><%=title%></title>
-    <link rel="stylesheet" type="text/css" href="/static/feedback.css" />
-    <link rel="shortcut icon" href="/static/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/public/feed.css" />
+    <link rel="shortcut icon" href="/public/favicon.ico" />
 </head>
 
 <body>
     
     <br>
     <div id="inline">
-        <h2><%=heading%></h2>
-
-        <form action="/feedback" method="get">
+        <br>
+        <form action="/feed" method="get"> <!-- вызов события /feed -->
             <button id="send"><%=button%></button>
         </form>
         <br>
-        <h4>Предыдущие отзывы</h4>
+        <h4><%=heading%></h4>
         <table>
             <tr>
                 <th>Имя</th>
