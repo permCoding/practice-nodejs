@@ -8,8 +8,8 @@ app.use('/public', express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 
 // routing - маршрутизация
-const router_index = require('./routes/async_index');
-const router_feed = require('./routes/async_feed');
+const router_index = require('./routes/index.js');
+const router_feed = require('./routes/feed.js');
 app.use('/', router_index);
 app.use('/feed', router_feed);
 
