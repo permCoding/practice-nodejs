@@ -5,7 +5,7 @@
 
 Онлайн кабинет для занятий - ссылка для входа: https://bbb6.psaa.ru/b/gfj-hbj-lh8-ed5  
 [Запись занятия №1 в BBB - постановка задачи и технологии](https://bbb6.psaa.ru/playback/presentation/2.3/484c3d7989cc3e3ee9f672963590723b8d515111-1653490453962)  
-[Запись занятия от 16/06/2022](https://bbb6.psaa.ru/playback/presentation/2.3/484c3d7989cc3e3ee9f672963590723b8d515111-1655387798968)  
+[Запись занятия от 16/06/2022 - ПИбу-2020](https://bbb6.psaa.ru/playback/presentation/2.3/484c3d7989cc3e3ee9f672963590723b8d515111-1655387798968)  
 
 **Полезные ссылки:**  
 [Платформа Nodejs](https://nodejs.org/en/)  
