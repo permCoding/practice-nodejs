@@ -9,6 +9,7 @@
 **Полезные ссылки:**  
 [Платформа Nodejs](https://nodejs.org/en/)  
 [VS Code](https://code.visualstudio.com/download)  
+[sqlite browser](https://sqlitebrowser.org/dl/)  
 [Приложение github desktop](https://desktop.github.com/)  
 [Как расшарить приватный репозиторий на GitHub](https://pcoding.ru/pdf/shareGit.pdf)  
 
