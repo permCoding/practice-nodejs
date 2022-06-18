@@ -17,19 +17,36 @@ router.get('/', (req, res) => {
     });
 });
 
+// router.post('/del', htmlParser, (req, res) => {
+//     let query = `DELETE FROM feeds WHERE uid=?`;
+//     let items = [] // req.body.option массив или переменная
+//         .concat(req.body.option) // получить массив
+//         .map(item => parseInt(item)) // перевести в int
+//         .filter(item => !isNaN(item)); // выбрать только числа
+//     if (items.length > 0) { // если есть что удалять
+//         items.forEach(item => { // item подставляется вместо ?
+//             db.run(query, item, (err) => {
+//                 if (err) console.error(err.message);
+//             });
+//         });
+//     }
+//     res.redirect("/");
+// });
+
 router.post('/del', htmlParser, (req, res) => {
-    let query = `DELETE FROM feeds WHERE uid=?`;
+    
     let items = [] // req.body.option массив или переменная
         .concat(req.body.option) // получить массив
         .map(item => parseInt(item)) // перевести в int
         .filter(item => !isNaN(item)); // выбрать только числа
+    
     if (items.length > 0) { // если есть что удалять
-        items.forEach(item => { // item подставляется вместо ?
-            db.run(query, item, (err) => {
-                if (err) console.error(err.message);
-            });
+        let query = `DELETE FROM feeds WHERE uid IN (${items.join(',')})`;
+        db.run(query, [], (err) => {
+            if (err) console.error(err.message);
         });
     }
+
     res.redirect("/");
 });
 
