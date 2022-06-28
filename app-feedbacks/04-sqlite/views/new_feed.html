@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" type="text/css" href="../public/style.css" />
+    <link rel="shortcut icon" href="../public/favicon.ico" />
+</head>
+
+<body>
+    
+    <br>
+    <div id="inline">
+    <h4>Форма онлайн отзыва</h4>
+    <form action="/new_feed" method="post"> <!-- вызов события /new_feed -->
+        <input class="txt" name="nameUser" type="name" placeholder="Ваше имя">
+        <textarea class="txtarea" name="feedUser" placeholder="Ваш отзыв"></textarea>
+        <button class="send">Отправить отзыв</button>
+    </form>
+    
+    <form> <!-- вызов главной страницы - событие / -->
+        <button class="send alarm" type="submit" formaction="/">Вернуться</button>
+    </form>
+    <br>
+    </div>
+
+</body>
+</html>
