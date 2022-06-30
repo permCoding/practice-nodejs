@@ -20,25 +20,17 @@
                 <th width="25%">Имя</th>
                 <th>Отзыв</th>
             </tr>
-            
+            <% for (let item of feeds_info) { %>
             <tr>
-                <td class="td">Имя</td>
-                <td class="td">Отзыв</td>
+                <td class="td"><%= item.userName %></td>
+                <td class="td"><%= item.userFeed %></td>
             </tr>
-            <tr>
-                <td class="td">Имя</td>
-                <td class="td">Отзыв</td>
-            </tr>
-            <tr>
-                <td class="td">Имя</td>
-                <td class="td">Отзыв</td>
-            </tr>
-            
+            <% } %>
         </table>
 
         <br>
         <form> <!-- вызов главной страницы - событие / -->
-            <button class="send alarm" type="submit" formaction="./intro.html">Вернуться</button>
+            <button class="send alarm" type="submit" formaction="./intro">Вернуться</button>
         </form>
         <br>
 
