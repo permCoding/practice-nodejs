@@ -1,8 +1,6 @@
 const express = require('express');
-const model = { 
-    title: "Отзывы о продукции" 
-}; // подключаем модель данных
 const router = express.Router();
+let { model } = require('../models/m_intro.js');
 
 router.get('/', (req, res) => {
     res.render('intro.ejs', model); // render view

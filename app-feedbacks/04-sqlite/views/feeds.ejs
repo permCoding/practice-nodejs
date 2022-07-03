@@ -2,39 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Заголовок страницы</title>
+    <title><%= title %></title>
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css" />
     <link rel="shortcut icon" href="../public/images/favicon.ico" />
 </head>
-
 <body>
-    
-    <br>
-    <div id="inline">
-        
-        <br>
-        <h4>Название таблицы</h4>
-        
-        <table>
-            <tr>
-                <th width="25%">Имя</th>
-                <th>Отзыв</th>
-            </tr>
-            <% for (let item of feeds_info) { %>
-            <tr>
-                <td class="td"><%= item.userName %></td>
-                <td class="td"><%= item.userFeed %></td>
-            </tr>
-            <% } %>
-        </table>
-
-        <br>
-        <form> <!-- вызов главной страницы - событие / -->
-            <button class="send alarm" type="submit" formaction="./intro">Вернуться</button>
-        </form>
-        <br>
-
+    <div class="wrapper">
+        <div class="content">
+            <%- include("./header.html") %>
+            <div class="desktop">
+            <br>
+            <h4>Отзывы</h4>
+            <table>
+                <tr>
+                    <th width="25%">Имя</th>
+                    <th>Отзыв</th>
+                </tr>
+                <% for (let item of feeds) { %>
+                <tr>
+                    <td class="td"><%= item.userName %></td>
+                    <td class="td"><%= item.userFeed %></td>
+                </tr>
+                <% } %>
+            </table>
+        </div>
     </div>
-    
+    <%- include("./footer.html") %>
+    </div>   
 </body>
 </html>

@@ -8,21 +8,28 @@
 </head>
 
 <body>
-    
-    <br>
-    <div id="inline">
-    <h4>Форма онлайн отзыва</h4>
-    <form action="/new_feed" method="post"> <!-- вызов события /new_feed -->
-        <input class="txt" name="nameUser" type="name" placeholder="Ваше имя">
-        <textarea class="txtarea" name="feedUser" placeholder="Ваш отзыв"></textarea>
-        <button class="send">Отправить отзыв</button>
-    </form>
-    
-    <form> <!-- вызов главной страницы - событие / -->
-        <button class="send alarm" type="submit" formaction="./intro.html">Вернуться</button>
-    </form>
-    <br>
-    </div>
+    <div class="wrapper">
+    <div class="content">
+        <ul id="navbar">
+            <li><a href="./intro.html">Описание продукции</a></li>
+            <li><a href="./feeds.html">Отзывы о продукции</a></li>
+            <li><a href="./new_feed.html">Добавить отзыв</a></li>
+        </ul>    
+        
+        <div class="desktop">
+            <br>
+            <h4>Форма онлайн отзыва</h4>
+            <form action="/new_feed" method="post"> <!-- вызов события /new_feed -->
+                <input class="txt" name="nameUser" type="name" placeholder="Ваше имя">
+                <textarea class="txtarea" name="feedUser" placeholder="Ваш отзыв"></textarea>
+                <button class="send">Отправить отзыв</button>
+            </form>
+        </div>
 
+    </div>
+    <div class="footer">
+        <p class="footer-text">&copy; A.Belyakov</p>
+    </div>
+    </div>
 </body>
 </html>

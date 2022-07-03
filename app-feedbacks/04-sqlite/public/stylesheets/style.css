@@ -4,7 +4,6 @@ body {
     background-color: rgb(228,228,228); 
     font: 14px/20px Arial, sans-serif;
 }
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -16,6 +15,10 @@ body {
 }
 .content {
     flex: 1 0 auto;
+}
+.desktop {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .aligncenter {
     text-align: center;
@@ -55,8 +58,12 @@ body {
     flex: 0 0 auto;
     height: 40px;
     background: #378D3B;
+    display: flex;
 }
-
+.footer-text {
+    margin: auto;
+    color: #96d198;
+}
 h4 {
     color: #70C6B9;
     font-size: 18px;
@@ -149,11 +156,5 @@ button.send {
     background:#70C6B9;
 }
 button.send:hover {
-    background:#979797;
-}
-button.send.alarm { 
-    background:#da5c3f;
-}
-button.send.alarm:hover { 
     background:#979797;
 }

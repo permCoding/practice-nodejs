@@ -11,6 +11,9 @@
 [Платформа Nodejs](https://nodejs.org/en/)  
 [VS Code](https://code.visualstudio.com/download)  
 [sqlite browser](https://sqlitebrowser.org/dl/)  
+[ejs](https://ejs.co/#docs)  
+[Using EJS with Express](https://github.com/mde/ejs)  
+[Доки better-sqlite3](https://www.npmjs.com/package/better-sqlite3)  
 [Приложение github desktop](https://desktop.github.com/)  
 [Как расшарить приватный репозиторий на GitHub](https://pcoding.ru/pdf/shareGit.pdf)  
 
