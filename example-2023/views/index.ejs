@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Отзывы</title>
+    <link rel="stylesheet" type="text/css" href="/feed.css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body>
+    
+    <br>
+    <div id="inline">
+        <br>
+        <form action="/feed" method="get"> <!-- вызов события /feed -->
+            <button id="send">Добавить отзыв</button>
+        </form>
+        <br>
+        <h4>Список отзывов:</h4>
+        <table>
+            <tr>
+                <th>Имя</th>
+                <th>Отзыв</th>
+            </tr>
+            <% for (let feed of feeds) { %>
+            <tr>
+                <td class="name"><%=feed.name%></td>
+                <td class="feed"><%=feed.feed%></td>
+            </tr>
+            <%} %>
+        </table>
+    </div>
+
+</body>
+</html>
