@@ -4,14 +4,21 @@
     не зависит от выбора пользователя
 */
 
-let x = 123;
+let x = 123
 
-console.log(x%2!=0);
+// C#
+// static
+// Console.WriteLine();
 
-let prefix = '';
+console.log(x%2!=0)
+
+let prefix = null; // 
 if (x%2!=0) {
-    prefix = 'не';
+    prefix = 'не'
 }
-console.log(`${prefix}четное`);
+else {
+    prefix = ''
+}
+console.log(`${prefix}четное`)
 
-console.log(x%2!=0?'нечетное':'четное');
+console.log(x%2!=0? 'нечетное': 'четное')
