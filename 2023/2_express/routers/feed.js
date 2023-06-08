@@ -3,7 +3,7 @@ const router = express.Router();
 const sqlite = require('sqlite3').verbose();
 const htmlParser = express.urlencoded({extended: false});
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.render('feed.ejs', {}); // render view
 });
 
@@ -17,7 +17,7 @@ router.post('/', htmlParser, (req, res) => {
     let query = `INSERT INTO feeds(name,feed) VALUES(?,?)`;
     db.run(query, [nameUser, feedUser], (err) => {
         if (err) console.log(err.message);
-        res.redirect("/");
+        res.redirect("/"); // после записи редирект на главную страницу
     });
     db.close();
 });

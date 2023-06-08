@@ -1,5 +1,4 @@
 body {
-    background: url(/public/bg.png) repeat ;
     font: normal normal 14px/20px Arial, Georgia, serif;
 }
 h2 {
@@ -89,16 +88,7 @@ tr:nth-child(even) {
     border-style:solid;
     border-color:#BABABA;
     color:#444;
-}
-input.error, textarea.error {
-    border-color:#973D3D;
-    border-style:solid;
-    background:#F0BEBE;
-    color:#A35959;
-}
-input.error:focus, textarea.error:focus {
-    border-color:#973D3D;
-    color:#A35959;
+    background:#FFC;
 }
 #send { 
     color:#FFFFFF;

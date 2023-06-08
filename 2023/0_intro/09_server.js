@@ -8,6 +8,7 @@ const http = require("http");
 
 const make_response = (req, res) => {
     res.writeHead(200, {"Content-Type": "text/html"} );
+    // https://nodejs.org/api/http.html#responsewriteheadstatuscode-statusmessage-headers    
     console.log("request");
     res.write('<meta charset="utf-8" /><br>');
     res.write('<div style="text-align: center;">');
