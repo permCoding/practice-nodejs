@@ -16,6 +16,9 @@
 |[DB Browser for SQLite](https://sqlitebrowser.org/dl/)|[Сервис npm](https://docs.npmjs.com/about-npm)|[better-sqlite3](https://www.npmjs.com/package/better-sqlite3)| |
 ||[Пример про npm install](https://docs.npmjs.com/cli/v9/commands/npm-install)| ... | |
 
+[Node.js](https://nodejsdev.ru/guides/)  
+[Express](https://expressjs.com/)  
+
 ---  
 
 Продолжительность практики 2 недели, **что нужно сделать**:  

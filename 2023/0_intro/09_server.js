@@ -21,8 +21,7 @@ const server = http.createServer();
 
 server.on("request", make_response); // обработка запроса от клиента
 
-const hostname = 'localhost';
-const port = 3000;
+const hostname = 'localhost', port = 3000;
 server.listen(port, hostname, 
     () => console.log(`http://${hostname}:${port}/`)
 ); // включили прослушивание
