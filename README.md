@@ -14,10 +14,8 @@
 |[Платформа Nodejs](https://nodejs.org/en/)|[Шаблонизатор ejs](https://ejs.co/#docs)|[sqlite3](https://www.npmjs.com/package/sqlite3)|[Приложение github desktop](https://desktop.github.com/)|
 |[VS Code](https://code.visualstudio.com/download)|[Using EJS with Express](https://github.com/mde/ejs)|[sqlite-sync](https://www.npmjs.com/package/sqlite-sync)|[Как расшарить приватный репозиторий на GitHub](https://pcoding.ru/pdf/shareGit.pdf)|
 |[DB Browser for SQLite](https://sqlitebrowser.org/dl/)|[Сервис npm](https://docs.npmjs.com/about-npm)|[better-sqlite3](https://www.npmjs.com/package/better-sqlite3)| |
-||[Пример про npm install](https://docs.npmjs.com/cli/v9/commands/npm-install)| ... | |
-
-[Node.js](https://nodejsdev.ru/guides/)  
-[Express](https://expressjs.com/)  
+||[Пример про npm install](https://docs.npmjs.com/cli/v9/commands/npm-install)| [Node.js](https://nodejsdev.ru/guides/) | |
+|| | [Express](https://expressjs.com/) | |
 
 ---  
 
