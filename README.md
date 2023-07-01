@@ -12,7 +12,7 @@
 |Инструменты|packages|Docs|Git|
 |:-:|:-:|:-:|:-:|
 |[Платформа Nodejs](https://nodejs.org/en/)|[Шаблонизатор ejs](https://ejs.co/#docs)| [Node.js](https://nodejsdev.ru/guides/) |[github desktop](https://desktop.github.com/)|
-|[VS Code](https://code.visualstudio.com/download)|[Using EJS with Express](https://github.com/mde/ejs)| [Express](https://expressjs.com/) |[Как расшарить репозиторий](https://pcoding.ru/pdf/shareGit.pdf)|
+|[VS Code](https://code.visualstudio.com/download)|[Using EJS with Express](https://github.com/mde/ejs)| [Express](https://expressjs.com/) |[Как расшарить репо](https://pcoding.ru/pdf/shareGit.pdf)|
 |[DB Browser for SQLite](https://sqlitebrowser.org/dl/)|[Сервис npm](https://docs.npmjs.com/about-npm)| [sqlite3](https://www.npmjs.com/package/sqlite3) | |
 ||[Пример про npm install](https://docs.npmjs.com/cli/v9/commands/npm-install)| [sqlite-sync](https://www.npmjs.com/package/sqlite-sync) | |
 | | | [better-sqlite3](https://www.npmjs.com/package/better-sqlite3) | |
