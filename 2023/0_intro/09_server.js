@@ -14,13 +14,14 @@ const make_response = (req, res) => {
     res.write('<div style="text-align: center;">');
     res.write('<h3>The server is running</h3>');
     res.write('<h2>Сервер запущен</h2>');
+    res.write('<img src="./comp.jpg">'); // так не может возвращать файлы
     res.write('</div>');
     res.end(); // завершает ответ и передёт управление браузеру
 };
 
 const server = http.createServer();
 
-server.on("request", make_response); // обработка запроса от клиента
+server.on("request", make_response); // на событие запроса сделай ответ
 
 const hostname = 'localhost', port = 3000;
 server.listen(port, hostname, 

@@ -65,7 +65,7 @@ const make_response = (req, res) => { // req = request, res = response
 };
 
 const server = http.createServer();
-server.on("request", make_response);
+server.on("request", make_response); // на событие запроса сделай ответ
 server.listen(3000, 'localhost');
 
 
