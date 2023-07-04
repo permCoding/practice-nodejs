@@ -7,4 +7,5 @@ app.use(express.static('public'));
 app.use("/", require('./routers/index.js'));
 app.use("/feed", require('./routers/feed.js'));
 
-app.listen(3000, () => console.log(`http://localhost:${3000}/`));
+let port = 3000;
+app.listen(port, () => console.log(`http://localhost:${port}/`));
