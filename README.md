@@ -6,7 +6,7 @@
 [25/05/2022 - Пиб-2019](https://bbb6.psaa.ru/playback/presentation/2.3/484c3d7989cc3e3ee9f672963590723b8d515111-1653490453962)  
 [16/06/2022 - ПИбу-2020](https://bbb6.psaa.ru/playback/presentation/2.3/484c3d7989cc3e3ee9f672963590723b8d515111-1655387798968)  
 [01/06/2023 - ПИбу-2021](https://bbb6.psaa.ru/playback/presentation/2.3/484c3d7989cc3e3ee9f672963590723b8d515111-1685623966436)  
-[тут появится ссылка на запись вашего занятия](https://github.com/permCoding/practice-nodejs)  
+[04/07/2023 - ПИнб-2023](https://bbb6.psaa.ru/playback/presentation/2.3/484c3d7989cc3e3ee9f672963590723b8d515111-1688474627002)  
 
 **Полезные ссылки:**  
 |Инструменты|packages|Docs|Git|
