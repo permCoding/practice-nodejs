@@ -15,7 +15,7 @@ let users =
         {
             "login": "user",
             "password": "user"
-        }    
+        }
     ];
 
 console.log(users);

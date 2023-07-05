@@ -5,20 +5,17 @@
 */
 
 let x = 123
+const check = x%2 != 0;
+console.log(check);
 
-// C#
-// static
-// Console.WriteLine();
+let prefix = null; // коммент
 
-console.log(x%2!=0)
-
-let prefix = null; // 
-if (x%2!=0) {
+if (check) {
     prefix = 'не'
 }
 else {
     prefix = ''
 }
-console.log(`${prefix}четное`)
 
+console.log(`${prefix}четное`)
 console.log(x%2!=0? 'нечетное': 'четное')

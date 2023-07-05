@@ -5,7 +5,8 @@
 let user_data = 
     {
         "login": "abc",
-        "password": "qwerty"
+        "password": "qwerty",
+        "key": true
     };
 
 console.log(user_data);
