@@ -53,3 +53,10 @@
   }
 }
 ```
+
+---  
+
+[Подбор шрифта - google fonts](https://fonts.google.com/)  
+[Как подобрать шрифт](https://habr.com/ru/companies/htmlacademy/articles/552388/)  
+
+---  
