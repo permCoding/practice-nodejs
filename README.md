@@ -60,3 +60,17 @@
 [Как подобрать шрифт](https://habr.com/ru/companies/htmlacademy/articles/552388/)  
 
 ---  
+
+**ПРИМЕРЫ**  
+
+http://practice.1gb.ru/  
+http://coding.1gb.ru/  
+http://pcoding.1gb.ru/  
+http://rcoding.1gb.ru/  
+- http://rcoding.1gb.ru/clients  
+- http://rcoding.1gb.ru/clients/name.email  
+- http://rcoding.1gb.ru/clients/name.email?field=name&direct=desc  
+- http://rcoding.1gb.ru/students  
+- http://rcoding.1gb.ru/tiobe/  
+- http://rcoding.1gb.ru/tiobe/lang.asc  
+- http://rcoding.1gb.ru/tiobe/rat.desc  
