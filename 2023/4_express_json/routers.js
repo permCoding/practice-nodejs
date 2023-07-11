@@ -10,7 +10,8 @@ const feed_get = (req, res) => {
 }
 
 const feed_post = (req, res) => {
-    let feeds = require('./private/feeds.json');
+    let feeds = require('./private/feeds.json'); // прочитать данные
+    
     let last_id = feeds[feeds.length-1].id; // последний id в массиве
     let new_record = { // формируем объект нового отзыва
         'id': last_id+1,
@@ -20,6 +21,7 @@ const feed_post = (req, res) => {
     feeds.push(new_record); // добавить в конец массива
     let json_in_str = JSON.stringify(feeds, null, 4); // перевести в строку
     fs.writeFileSync("./private/feeds.json", json_in_str, 'utf-8'); // записать в файл
+
     res.redirect('/'); // после записи редирект на главную страницу
 }
 

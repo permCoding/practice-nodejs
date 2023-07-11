@@ -11,7 +11,7 @@ let user_data =
 
 console.log(user_data);
 
-console.log(JSON.stringify(user_data, [], 4));
+console.log(JSON.stringify(user_data, [], 4)); // возвращает строку
 
 console.log(JSON.stringify(user_data, ['login'], 4));
 

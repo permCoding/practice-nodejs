@@ -4,11 +4,14 @@
 */
 
 function print_arr_a(elm) {
+    //
     console.log(elm, elm%2!=0?`нечетное`:`четное`)
+    // 
 }
 
 const print_arr_b = (elm) => console.log(elm, elm%2!=0?`нечетное`:`четное`);
 
+console.clear();
 
 let arr = [123,22,12,55,7];
 

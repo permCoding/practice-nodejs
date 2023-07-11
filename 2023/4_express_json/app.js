@@ -9,6 +9,7 @@ app.use(express.json()); // чтобы видеть тело страницы к
 
 app.post('/feed', routers.feed_post); // со страницы отзыва сделать запись в БД
 app.get('/feed', routers.feed_get); // перейти на страницу отзыва
+
 app.get('/', routers.index_get); // перейти на главную, этот путь ставить последним
 
 app.listen(3000, () => console.log(`http://localhost:${3000}/`)); // цикл прослушки событий
