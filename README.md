@@ -62,6 +62,10 @@
 
 ---  
 
+Запросы к БД последовательно или параллельно: https://www.sqlitetutorial.net/sqlite-nodejs/statements-control-flow/  
+
+---  
+
 **ПРИМЕРЫ**  
 
 http://practice.1gb.ru/  
