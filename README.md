@@ -63,6 +63,7 @@
 ---  
 
 Запросы к БД последовательно или параллельно: https://www.sqlitetutorial.net/sqlite-nodejs/statements-control-flow/  
+API SQLite3: https://github.com/TryGhost/node-sqlite3/wiki/API  
 
 ---  
 
