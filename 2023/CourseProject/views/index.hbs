@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Абитуриенты</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body>
+    
+    <br>
+    <div id="inline">
+        <br>
+        <h4>Список абитуриентов:</h4>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>Фамилия</th>
+                <th>Рейтинг</th>
+                <th>Город</th>
+            </tr>
+            {{#each abiturs}}
+            <tr>
+                <td>{{this.id}}</td>
+                <td>{{this.lastName}}</td>
+                <td>{{this.rating}}</td>
+                <td>{{this.city}}</td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+
+</body>
+</html>
