@@ -1,5 +1,7 @@
 ### документация  
 
+[Видео про этот курсовик](https://youtu.be/hGKho-Li_ME)  
+
 Разработать web-приложение, которое получает данные из:  
 https://pcoding.ru/json/abiturs.json  
 
