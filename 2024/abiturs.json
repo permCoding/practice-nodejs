@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "last_name": "Карпов",
+        "first_name": "Маским",
+        "gender": 1,
+        "rating": 212,
+        "id_city": 3,
+        "id_direct": 2
+    },
+    {
+        "id": 2,
+        "lastName": "Бортич",
+        "first_name": "Оксана",
+        "gender": 0,
+        "rating": 197,
+        "id_city": 2,
+        "id_direct": 1
+    }
+]
