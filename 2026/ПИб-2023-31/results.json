@@ -1,0 +1,142 @@
+[
+  {
+    "rankCur": "1",
+    "rankOld": "1",
+    "language": "Python",
+    "ratings": "21.81%",
+    "changeRating": "-2.08%"
+  },
+  {
+    "rankCur": "2",
+    "rankOld": "4",
+    "language": "C",
+    "ratings": "11.05%",
+    "changeRating": "+1.22%"
+  },
+  {
+    "rankCur": "3",
+    "rankOld": "2",
+    "language": "C++",
+    "ratings": "8.55%",
+    "changeRating": "-2.82%"
+  },
+  {
+    "rankCur": "4",
+    "rankOld": "3",
+    "language": "Java",
+    "ratings": "8.12%",
+    "changeRating": "-2.54%"
+  },
+  {
+    "rankCur": "5",
+    "rankOld": "5",
+    "language": "C#",
+    "ratings": "6.83%",
+    "changeRating": "+2.71%"
+  },
+  {
+    "rankCur": "6",
+    "rankOld": "6",
+    "language": "JavaScript",
+    "ratings": "2.92%",
+    "changeRating": "-0.85%"
+  },
+  {
+    "rankCur": "7",
+    "rankOld": "10",
+    "language": "Visual Basic",
+    "ratings": "2.85%",
+    "changeRating": "+0.81%"
+  },
+  {
+    "rankCur": "8",
+    "rankOld": "15",
+    "language": "R",
+    "ratings": "2.19%",
+    "changeRating": "+1.14%"
+  },
+  {
+    "rankCur": "9",
+    "rankOld": "7",
+    "language": "SQL",
+    "ratings": "1.93%",
+    "changeRating": "-0.93%"
+  },
+  {
+    "rankCur": "10",
+    "rankOld": "9",
+    "language": "Delphi/Object Pascal",
+    "ratings": "1.88%",
+    "changeRating": "-0.29%"
+  },
+  {
+    "rankCur": "11",
+    "rankOld": "30",
+    "language": "Perl",
+    "ratings": "1.67%",
+    "changeRating": "+1.19%"
+  },
+  {
+    "rankCur": "12",
+    "rankOld": "11",
+    "language": "Fortran",
+    "ratings": "1.64%",
+    "changeRating": "-0.12%"
+  },
+  {
+    "rankCur": "13",
+    "rankOld": "14",
+    "language": "PHP",
+    "ratings": "1.34%",
+    "changeRating": "+0.20%"
+  },
+  {
+    "rankCur": "14",
+    "rankOld": "13",
+    "language": "Rust",
+    "ratings": "1.32%",
+    "changeRating": "-0.14%"
+  },
+  {
+    "rankCur": "15",
+    "rankOld": "12",
+    "language": "Scratch",
+    "ratings": "1.30%",
+    "changeRating": "-0.25%"
+  },
+  {
+    "rankCur": "16",
+    "rankOld": "8",
+    "language": "Go",
+    "ratings": "1.23%",
+    "changeRating": "-1.03%"
+  },
+  {
+    "rankCur": "17",
+    "rankOld": "24",
+    "language": "Ada",
+    "ratings": "1.14%",
+    "changeRating": "+0.43%"
+  },
+  {
+    "rankCur": "18",
+    "rankOld": "16",
+    "language": "MATLAB",
+    "ratings": "1.13%",
+    "changeRating": "+0.14%"
+  },
+  {
+    "rankCur": "19",
+    "rankOld": "17",
+    "language": "Assembly language",
+    "ratings": "1.10%",
+    "changeRating": "+0.15%"
+  },
+  {
+    "rankCur": "20",
+    "rankOld": "23",
+    "language": "Kotlin",
+    "ratings": "1.05%",
+    "changeRating": "+0.29%"
+  }
+]
