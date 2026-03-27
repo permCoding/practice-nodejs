@@ -21,7 +21,7 @@ const getData = (html) => {
 
 const saveJSON = (results) => {
     const json = JSON.stringify(results, null, 2);
-    fs.writeFileSync('./results.json', json, 'utf8');
+    fs.writeFileSync('./data/results.json', json, 'utf8');
 }
 
 const url = 'https://www.tiobe.com/tiobe-index/';
