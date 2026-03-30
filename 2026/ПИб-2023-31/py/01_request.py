@@ -1,13 +1,16 @@
 import requests  # pip install requests
 
 
-url = "https://pgatu.ru/today/"
+url = "http://tasks.1gb.ru/"
+# url = "https://pgatu.ru/today/"
 headers = { "User-Agent": "Chrome/146.0.0.0" }
 response = requests.get(url, headers=headers)
 response.encoding = "utf8"
-# print(response.text)
-with open("./data/pgatu.html", "w", encoding="utf8") as f:
-    f.write(response.text)
+
+print(response.text)
+
+# with open("./data/pgatu.html", "w", encoding="utf8") as f:
+#     f.write(response.text)
 
 
 
